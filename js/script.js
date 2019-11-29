@@ -18,7 +18,6 @@ $(document).ready(function () {
     setInterval(siguiente, 4000);
     tabs();
     zoomImag();
-    $('imgAnimate').click(zoom)
 
     $('.toggle').click(function () {
         $('.formulario').animate({
@@ -122,7 +121,7 @@ $(document).ready(function () {
                 $('th h1').css({
                     'display': 'grid',
                     'color': 'white',
-                    'top':'100%'
+                    'top': '100%'
                 });
             },
             function () {
@@ -135,5 +134,5 @@ $(document).ready(function () {
                 });
             });
     }
-    
+
 });

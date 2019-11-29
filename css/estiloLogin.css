@@ -88,8 +88,8 @@
 }
 
 .contenedor-form .reset-password {
-    background: #222;
-    opacity: 0.8;
+    background: rgba(0, 117, 217, 0.7);
+
     width: 100%;
     padding: 15px 0;
     text-align: center;

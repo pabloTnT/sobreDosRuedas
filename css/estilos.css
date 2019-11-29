@@ -89,8 +89,8 @@ ul {
     background-size: cover;
     overflow: hidden;
     align-content: center;
-    margin-bottom: 15%;
     height: auto;
+    min-height: 1000px;
 
 }
 
@@ -156,7 +156,7 @@ nav a:hover {
     width: 250px;
     margin: 25px;
     border-radius: 250px;
-    
+
 }
 
 .columna2 {
@@ -164,7 +164,7 @@ nav a:hover {
 }
 
 th h1 {
-    display:none;
+    display: none;
     z-index: 100;
 }
 
@@ -191,7 +191,7 @@ th h1 {
 }
 
 .articulo1 {
-    background: rgb(60,60,55,0.6);
+    background: rgb(60, 60, 55, 0.6);
     width: 30%;
     text-align: center;
     float: left;
@@ -211,7 +211,7 @@ th h1 {
 }
 
 .articulo2 {
-    background: rgb(60,60,55,0.6);
+    background: rgb(60, 60, 55, 0.6);
     width: 30%;
     text-align: center;
     float: left;
@@ -231,7 +231,7 @@ th h1 {
 
 .articulo3 {
     z-index: -1;
-    background: rgb(60,60,55,0.6);
+    background: rgb(60, 60, 55, 0.6);
     width: 30%;
     text-align: center;
     float: left;
@@ -241,7 +241,12 @@ th h1 {
     margin-right: 2%;
     border-radius: 25px;
 }
-#eventos{
+
+#eventos {
+    margin-top: 2%;
+}
+
+#anuncios {
     margin-top: 2%;
 }
 
@@ -274,4 +279,3 @@ th h1 {
     .paginacion {
         display: none;
     }
-}
